@@ -3,7 +3,7 @@
     xmlns:wol="nativescript-wear-os/packages/wear-os-layout">
     <ui:BoxInsetLayout>
         <StackLayout height="100%" width="100%">
-            <Label text="You have one open claim (000-0000-000) with a status of:" class="text-white text-third" textWrap="true" />
+            <Label text="You have one open claim (354-988842-01) with a status of:" class="text-white text-third" textWrap="true" />
 			<Label text="PENDING" class="text-yellow" textWrap="true" />
 			<Button col="0" text="OK" class="greyBtn" tap="navBack" />
             <!-- <GridLayout rows="50" columns="*, *">

@@ -4,7 +4,7 @@
     <ui:BoxInsetLayout>
         <StackLayout height="100%" width="100%">
             <Label text="ACME Claims" class="text-white text-third bold" textWrap="true" />
-			<Label text="Your claim (000-0000-000) has been approved." class="text-white text-third" textWrap="true" />
+			<Label text="The claim for your 2010 Ford Focus has been approved." class="text-white text-third" textWrap="true" />
 			<Button col="0" text="OK" class="greyBtn" tap="navBack" />
             <!-- <GridLayout rows="50" columns="*, *">
                 <Button col="0" text="OK" class="yellowBtn" tap="navBack" />
