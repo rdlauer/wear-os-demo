@@ -1,0 +1,15 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded" actionBarHidden="true" 
+    xmlns:ui="nativescript-wear-os/packages/box-inset-layout" 
+    xmlns:wol="nativescript-wear-os/packages/wear-os-layout">
+    <ui:BoxInsetLayout>
+        <StackLayout height="100%" width="100%">
+            <Label text="ACME Claims" class="text-white text-third bold" textWrap="true" />
+			<Label text="Your claim (000-0000-000) has been approved." class="text-white text-third" textWrap="true" />
+			<Button col="0" text="OK" class="greyBtn" tap="navBack" />
+            <!-- <GridLayout rows="50" columns="*, *">
+                <Button col="0" text="OK" class="yellowBtn" tap="navBack" />
+                <Button col="1" text="Okay" class="yellowBtn" />
+            </GridLayout> -->
+        </StackLayout>
+    </ui:BoxInsetLayout>
+</Page>

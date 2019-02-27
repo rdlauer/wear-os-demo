@@ -1,0 +1,72 @@
+﻿@import '~nativescript-theme-core/css/core.light.css';
+Page {
+	background-color: #000;
+}
+
+ListView {
+	background-color: #000;
+}
+
+.image {
+	height: 50;
+	width: 50;
+}
+
+.image-logo {
+	height: 80;
+	width: 80;
+	margin-top: 5;
+}
+
+.label {
+	color: #fff;
+	font-size: 20;
+	margin: 4;
+	vertical-align: middle;
+}
+
+.text-white {
+	color: #fff;
+}
+
+.text-gray {
+	color: gray;
+	font-size: 10;
+	padding-left: 15;
+}
+
+.text-green {
+	color: green;
+	padding-left: 15;
+	font-weight: bold;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.text-yellow {
+	color: yellow;
+	padding-left: 15;
+	font-weight: bold;
+}
+
+.text-start {
+	font-size: 20;
+	padding-left: 15;
+}
+
+.text-third {
+	padding-left: 15;
+}
+
+.greyBtn {
+	margin-top: 5;
+	background-color: gray;
+	color: #fff;
+}
+
+.yellowBtn {
+	background-color: #0eb695;
+	color: #fff;
+}
